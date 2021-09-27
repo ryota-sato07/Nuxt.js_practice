@@ -1,17 +1,8 @@
 <template>
   <section class="container">
-      <p> {{ message }} </p>
+      <h1>Top Page</h1>
       <hr>
-      <router-link to="/price">Price Page</router-link>
+      <router-link to="/users/hello">Hello Page</router-link>
+      <router-link to="/users/other">Other Page</router-link>
   </section>
 </template>
-  
-<script>
-export default {
-  data: function(){
-    return {
-      message: 'Hello!'
-    }
-  }
-}
-</script>
