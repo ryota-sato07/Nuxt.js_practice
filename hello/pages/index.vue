@@ -3,10 +3,6 @@
       <div>
         <Counter></Counter>
         <hr>
-        <Counter></Counter>
-        <hr>
-        <Counter></Counter>
-        <hr>
       </div>
   </section>
 </template>
